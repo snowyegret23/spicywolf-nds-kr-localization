@@ -1,0 +1,2 @@
+# spicywolf nds kr localization
+ 
