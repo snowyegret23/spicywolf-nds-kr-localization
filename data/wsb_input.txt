@@ -1921,7 +1921,7 @@
 手持ちの銀貨が足りません=
 店員=
 ボク=
-FLAG / SIRA_KNOWN ： %d, flag_check(1)\n=
+
 !FILE:event/ev_act/act_400_sira_wo_siru_merusu_sakaba_talk.wsb
 　とっても　いいカンジ！=
 　いいカンジかも！=
