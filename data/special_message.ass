@@ -23,12 +23,12 @@ Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:02.88,Default,,0,0,0,,That's everything, well done!
-Dialogue: 0,0:00:02.88,0:00:05.35,Default,,0,0,0,,I'm Holo's voice actor, Ami Koshimizu.
-Dialogue: 0,0:00:05.35,0:00:06.72,Default,,0,0,0,,So, how was it?
-Dialogue: 0,0:00:06.72,0:00:09.71,Default,,0,0,0,,How can I put it... There were so many lines!
-Dialogue: 0,0:00:09.71,0:00:12.35,Default,,0,0,0,,Happy endings, bad endings...
-Dialogue: 0,0:00:12.35,0:00:14.78,Default,,0,0,0,,There were so many of them...
-Dialogue: 0,0:00:14.78,0:00:18.55,Default,,0,0,0,,I'm really glad you saw them all!
-Dialogue: 0,0:00:18.55,0:00:21.58,Default,,0,0,0,,Thank you for supporting Spice & Wolf.
-Dialogue: 0,0:00:21.58,0:00:24.15,Default,,0,0,0,,In other words, congratulations!
+Dialogue: 0,0:00:00.00,0:00:02.88,Default,,0,0,0,,그게 다에요, 잘했어요!
+Dialogue: 0,0:00:02.88,0:00:05.35,Default,,0,0,0,,저는 호로 성우, 코시미즈 아미에요.
+Dialogue: 0,0:00:05.35,0:00:06.72,Default,,0,0,0,,그래서, 어떠셨나요?
+Dialogue: 0,0:00:06.72,0:00:09.71,Default,,0,0,0,,어떻게 표현하지... 대사가 너무 많았어요!
+Dialogue: 0,0:00:09.71,0:00:12.35,Default,,0,0,0,,해피엔딩, 배드엔딩...
+Dialogue: 0,0:00:12.35,0:00:14.78,Default,,0,0,0,,너무 많아서...
+Dialogue: 0,0:00:14.78,0:00:18.55,Default,,0,0,0,,전 당신이 그걸 전부 봐서 정말 기뻐요!
+Dialogue: 0,0:00:18.55,0:00:21.58,Default,,0,0,0,,늑대와 향신료를 지원해주셔서 감사해요.
+Dialogue: 0,0:00:21.58,0:00:24.15,Default,,0,0,0,,즉, 축하합니다!

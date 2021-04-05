@@ -1,0 +1,56 @@
+^ホロ=$ 와 같이 확장검색해야 
+
+今まで楽しかったよ、ホロ=호로
+
+같이 되는 일이 발생하지 않음.
+
+There are different limitations and workarounds depending on the file you're translating
+
+bin_input: longer lines are moved to different locations of ROM so there's plenty of space for these.
+wsb_input: the script and pointers are all rewritten to fit the text so no limits here. 
+			This also includes turning a single textbox into multiple ones with >>
+dat_input: the files here all have different limits, but there should be plenty of space to fit them, 
+			and you should get an error if they don't fit.
+			
+bin_input = 제한 있음 (fit) -> 근데 걍했음 ㅋㅋ	
+dat_input = 제한 있음 (fit) - 일단 그냥 해 보고, 최대한 맞춰보기.
+ールケという村なんだが…、どう|
+北の方に寂れた村があってな、マ|
+でもそんな寒さの中入る温泉は格|
+ヴィンヘンはとても綺麗な村だよ。|
+기준: 보통 30바이트, 길면 32바이트(마침표)
+wsb_input = 제한 없음
+
+---
+#dat_input.txt
+!FILE:endview.dat -> 엔딩 일본어 해석 요청
+コイの塩漬け
+マスの干物 -> 湖国の味??
+---
+
+アイマべルグ=아이마벨그
+クライシュタイン=크라이슈타인
+メリンツ=메린츠
+セアベルク=세아베르크
+タルリッヒ=탈리히
+メルス・クリッツ=메르스・크릿츠
+ロマネスブルグ=로마네스브루그
+グラバラス=그라바라스
+ドルトンク=드르통크
+クリーグル=크리글
+ルッシ=루시
+ランドルタット=란돌턴트
+ヴァルアリー=바르아리
+シュリンケル=슈링켈
+ノーリン=노린
+ナウレナス=나우레나스
+デッセル=뎃셀
+マールケ=마르케
+ナインドルハ=나인드루하
+ヴィンヘン=뷘헨
+スウィージ=스위지
+ミランド=미란드
+シラ=시라
+エーレ=에르
+ワーデン=와덴
+ユーベル=유벨

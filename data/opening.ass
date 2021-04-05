@@ -25,7 +25,7 @@ Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:03.51,0:00:08.61,Default,,0,0,0,,늑대와 향신료: 나와 호로의 1년
-Dialogue: 0,0:00:10.48,0:00:15.35,Default,,0,0,0,,바람의 향기 새들의 지저귐
+Dialogue: 0,0:00:10.48,0:00:15.35,Default,,0,0,0,,바람의 향기, 새들의 지저귐
 Dialogue: 0,0:00:15.35,0:00:19.85,Default,,0,0,0,,구름이 흘러가며 아름답게 빛나고
 Dialogue: 0,0:00:19.85,0:00:25.35,Default,,0,0,0,,익숙해졌을 경치마저
 Dialogue: 0,0:00:25.35,0:00:30.08,Default,,0,0,0,,전혀 다른 것 같이 보이네요
