@@ -1,33 +1,30 @@
-^ホロ=$ 와 같이 확장검색해야 
-
+* NOTEPAD++에서 검색시 주의사항
+^ホロ=$ 와 같이 regex로 확장검색해야 
 今まで楽しかったよ、ホロ=호로
+위 경우처럼 잘못 대체되는 일이 발생하지 않음.
 
-같이 되는 일이 발생하지 않음.
-
+* 파일별 문자 제한사항
 There are different limitations and workarounds depending on the file you're translating
-
 bin_input: longer lines are moved to different locations of ROM so there's plenty of space for these.
 wsb_input: the script and pointers are all rewritten to fit the text so no limits here. 
-			This also includes turning a single textbox into multiple ones with >>
+	This also includes turning a single textbox into multiple ones with >>
 dat_input: the files here all have different limits, but there should be plenty of space to fit them, 
-			and you should get an error if they don't fit.
-			
-bin_input = 제한 있음 (fit) -> 근데 걍했음 ㅋㅋ	
-dat_input = 제한 있음 (fit) - 일단 그냥 해 보고, 최대한 맞춰보기.
+	and you should get an error if they don't fit.
+
+bin_input = 원본보다 길면 롬 빈공간으로 재할당 (포인터)
+wsb_input = 스크립트와 포인터 모두 재작성되므로 제한없음 ( >>를 통해 메세지박스를 분할한 경우에도 적용)
+dat_input = 파일마다 제한량이 다름. 하지만 최대한 맞춰서 번역하기 (원본보다 작거나 동일)
+
+* 문장별 한 줄 바이트 크기
 ールケという村なんだが…、どう|
 北の方に寂れた村があってな、マ|
 でもそんな寒さの中入る温泉は格|
 ヴィンヘンはとても綺麗な村だよ。|
-기준: 보통 30바이트, 길면 32바이트(마침표)
-wsb_input = 제한 없음
+원본 기준: 보통 30바이트, 길면 32바이트(마침표)
 
 ---
-#dat_input.txt
-!FILE:endview.dat -> 엔딩 일본어 해석 요청
-コイの塩漬け
-マスの干物 -> 湖国の味??
----
 
+*마을이름(참고)
 アイマべルグ=아이마벨그
 クライシュタイン=크라이슈타인
 メリンツ=메린츠
